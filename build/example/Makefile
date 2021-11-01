@@ -168,6 +168,66 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+example/CMakeFiles/C_switch.dir/rule:
+	cd /home/kevin/test/build && $(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/C_switch.dir/rule
+.PHONY : example/CMakeFiles/C_switch.dir/rule
+
+# Convenience name for target.
+C_switch: example/CMakeFiles/C_switch.dir/rule
+
+.PHONY : C_switch
+
+# fast build rule for target.
+C_switch/fast:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_switch.dir/build.make example/CMakeFiles/C_switch.dir/build
+.PHONY : C_switch/fast
+
+# Convenience name for target.
+example/CMakeFiles/C_array.dir/rule:
+	cd /home/kevin/test/build && $(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/C_array.dir/rule
+.PHONY : example/CMakeFiles/C_array.dir/rule
+
+# Convenience name for target.
+C_array: example/CMakeFiles/C_array.dir/rule
+
+.PHONY : C_array
+
+# fast build rule for target.
+C_array/fast:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_array.dir/build.make example/CMakeFiles/C_array.dir/build
+.PHONY : C_array/fast
+
+# Convenience name for target.
+example/CMakeFiles/C_two.dir/rule:
+	cd /home/kevin/test/build && $(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/C_two.dir/rule
+.PHONY : example/CMakeFiles/C_two.dir/rule
+
+# Convenience name for target.
+C_two: example/CMakeFiles/C_two.dir/rule
+
+.PHONY : C_two
+
+# fast build rule for target.
+C_two/fast:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_two.dir/build.make example/CMakeFiles/C_two.dir/build
+.PHONY : C_two/fast
+
+# Convenience name for target.
+example/CMakeFiles/C_one.dir/rule:
+	cd /home/kevin/test/build && $(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/C_one.dir/rule
+.PHONY : example/CMakeFiles/C_one.dir/rule
+
+# Convenience name for target.
+C_one: example/CMakeFiles/C_one.dir/rule
+
+.PHONY : C_one
+
+# fast build rule for target.
+C_one/fast:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_one.dir/build.make example/CMakeFiles/C_one.dir/build
+.PHONY : C_one/fast
+
+# Convenience name for target.
 example/CMakeFiles/roscpp_generate_messages_py.dir/rule:
 	cd /home/kevin/test/build && $(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : example/CMakeFiles/roscpp_generate_messages_py.dir/rule
@@ -422,6 +482,114 @@ std_msgs_generate_messages_py/fast:
 	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/std_msgs_generate_messages_py.dir/build.make example/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+src/C_array.o: src/C_array.cpp.o
+
+.PHONY : src/C_array.o
+
+# target to build an object file
+src/C_array.cpp.o:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_array.dir/build.make example/CMakeFiles/C_array.dir/src/C_array.cpp.o
+.PHONY : src/C_array.cpp.o
+
+src/C_array.i: src/C_array.cpp.i
+
+.PHONY : src/C_array.i
+
+# target to preprocess a source file
+src/C_array.cpp.i:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_array.dir/build.make example/CMakeFiles/C_array.dir/src/C_array.cpp.i
+.PHONY : src/C_array.cpp.i
+
+src/C_array.s: src/C_array.cpp.s
+
+.PHONY : src/C_array.s
+
+# target to generate assembly for a file
+src/C_array.cpp.s:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_array.dir/build.make example/CMakeFiles/C_array.dir/src/C_array.cpp.s
+.PHONY : src/C_array.cpp.s
+
+src/C_one.o: src/C_one.cpp.o
+
+.PHONY : src/C_one.o
+
+# target to build an object file
+src/C_one.cpp.o:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_one.dir/build.make example/CMakeFiles/C_one.dir/src/C_one.cpp.o
+.PHONY : src/C_one.cpp.o
+
+src/C_one.i: src/C_one.cpp.i
+
+.PHONY : src/C_one.i
+
+# target to preprocess a source file
+src/C_one.cpp.i:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_one.dir/build.make example/CMakeFiles/C_one.dir/src/C_one.cpp.i
+.PHONY : src/C_one.cpp.i
+
+src/C_one.s: src/C_one.cpp.s
+
+.PHONY : src/C_one.s
+
+# target to generate assembly for a file
+src/C_one.cpp.s:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_one.dir/build.make example/CMakeFiles/C_one.dir/src/C_one.cpp.s
+.PHONY : src/C_one.cpp.s
+
+src/C_switch.o: src/C_switch.cpp.o
+
+.PHONY : src/C_switch.o
+
+# target to build an object file
+src/C_switch.cpp.o:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_switch.dir/build.make example/CMakeFiles/C_switch.dir/src/C_switch.cpp.o
+.PHONY : src/C_switch.cpp.o
+
+src/C_switch.i: src/C_switch.cpp.i
+
+.PHONY : src/C_switch.i
+
+# target to preprocess a source file
+src/C_switch.cpp.i:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_switch.dir/build.make example/CMakeFiles/C_switch.dir/src/C_switch.cpp.i
+.PHONY : src/C_switch.cpp.i
+
+src/C_switch.s: src/C_switch.cpp.s
+
+.PHONY : src/C_switch.s
+
+# target to generate assembly for a file
+src/C_switch.cpp.s:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_switch.dir/build.make example/CMakeFiles/C_switch.dir/src/C_switch.cpp.s
+.PHONY : src/C_switch.cpp.s
+
+src/C_two.o: src/C_two.cpp.o
+
+.PHONY : src/C_two.o
+
+# target to build an object file
+src/C_two.cpp.o:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_two.dir/build.make example/CMakeFiles/C_two.dir/src/C_two.cpp.o
+.PHONY : src/C_two.cpp.o
+
+src/C_two.i: src/C_two.cpp.i
+
+.PHONY : src/C_two.i
+
+# target to preprocess a source file
+src/C_two.cpp.i:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_two.dir/build.make example/CMakeFiles/C_two.dir/src/C_two.cpp.i
+.PHONY : src/C_two.cpp.i
+
+src/C_two.s: src/C_two.cpp.s
+
+.PHONY : src/C_two.s
+
+# target to generate assembly for a file
+src/C_two.cpp.s:
+	cd /home/kevin/test/build && $(MAKE) -f example/CMakeFiles/C_two.dir/build.make example/CMakeFiles/C_two.dir/src/C_two.cpp.s
+.PHONY : src/C_two.cpp.s
+
 src/hello_world.o: src/hello_world.cpp.o
 
 .PHONY : src/hello_world.o
@@ -459,6 +627,10 @@ help:
 	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... C_switch"
+	@echo "... C_array"
+	@echo "... C_two"
+	@echo "... C_one"
 	@echo "... list_install_components"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"
@@ -479,6 +651,18 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... src/C_array.o"
+	@echo "... src/C_array.i"
+	@echo "... src/C_array.s"
+	@echo "... src/C_one.o"
+	@echo "... src/C_one.i"
+	@echo "... src/C_one.s"
+	@echo "... src/C_switch.o"
+	@echo "... src/C_switch.i"
+	@echo "... src/C_switch.s"
+	@echo "... src/C_two.o"
+	@echo "... src/C_two.i"
+	@echo "... src/C_two.s"
 	@echo "... src/hello_world.o"
 	@echo "... src/hello_world.i"
 	@echo "... src/hello_world.s"
